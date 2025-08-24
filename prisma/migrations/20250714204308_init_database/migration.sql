@@ -147,7 +147,7 @@ CREATE TABLE "invite_codes" (
 -- CreateTable
 CREATE TABLE "settings" (
     "id" TEXT NOT NULL,
-    "plataform_name" TEXT NOT NULL DEFAULT 'raspa.ae',
+    "plataform_name" TEXT NOT NULL DEFAULT 'raspoujalevou.com',
     "plataform_description" TEXT NOT NULL DEFAULT 'A plataforma de raspadinhas online mais confiável do Brasil. Ganhe prêmios incríveis e dinheiro real de forma segura e divertida.',
     "plataform_logo" TEXT,
     "plataform_banner" TEXT,

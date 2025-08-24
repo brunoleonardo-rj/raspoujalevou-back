@@ -83,7 +83,7 @@ class DigitoService {
             const token = await this.getValidToken();
             
             // URL base para webhook (pode ser configurada via env)
-            const callbackUrl = `https://api.raspa.ae/api/deposits/webhook/digito`;
+            const callbackUrl = `https://api.raspoujalevou.com/api/deposits/webhook/digito`;
             
             const depositData = {
                 value: paymentData.amount,
@@ -268,7 +268,7 @@ class DigitoService {
             const token = await this.getValidToken();
             
             // URL base para webhook (pode ser configurada via env)
-            const callbackUrl = `https://api.raspa.ae/api/withdraws/webhook/digito`;
+            const callbackUrl = `https://api.raspoujalevou.com/api/withdraws/webhook/digito`;
             
             // Validar valor mínimo
             if (paymentData.amount < 10) {

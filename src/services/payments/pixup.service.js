@@ -77,7 +77,7 @@ class PixupService {
             const token = await this.getValidToken();
             
             // URL base para webhook (pode ser configurada via env)
-            const postbackUrl = `https://api.raspa.ae/api/deposits/webhook/pixup`;
+            const postbackUrl = `https://api.raspoujalevou.com/api/deposits/webhook/pixup`;
             
             const pixData = {
                 amount: paymentData.amount,

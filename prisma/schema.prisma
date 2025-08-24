@@ -189,7 +189,7 @@ model InviteCode {
 
 model Setting {
   id String @id @default(uuid())
-  plataform_name String @default("raspa.ae")
+  plataform_name String @default("raspoujalevou.com")
   plataform_description String @default("A plataforma de raspadinhas online mais confiável do Brasil. Ganhe prêmios incríveis e dinheiro real de forma segura e divertida.")
   plataform_logo String?
   plataform_banner String?
